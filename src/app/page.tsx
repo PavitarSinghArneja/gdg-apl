@@ -34,10 +34,6 @@ export default function Home() {
             transition={{ duration: 0.6 }}
             className="hero-content"
           >
-            <div className="badge">
-              <HeartPulse size={14} />
-              <span>Hackathon Winner Concept</span>
-            </div>
             <h1 className="hero-title">
               Corporate Life is Hard. <br />
               <span className="gradient-text">Venting Should Be Easy.</span>
@@ -56,7 +52,7 @@ export default function Home() {
                 <div className="card-icon-container purple">
                   <MessageSquareText size={32} />
                 </div>
-                <h3>Went Write {'>'} Send</h3>
+                <h3>Vent {'->'} Send</h3>
                 <p>Turn your unfiltered rants into Big 4 consulting gold. Professional, polished, and ready to send.</p>
                 <div className="card-footer">
                   <span>Try Transformation</span>

@@ -86,7 +86,7 @@ export default function WentWrite({ onBack }: WentWriteProps) {
       </button>
 
       <div className="view-header">
-        <h2 className="gradient-text">Went Write {'>'} Send</h2>
+        <h2 className="gradient-text">Vent {'->'} Send</h2>
         <p>Type the version that would get you fired. We'll handle the rest.</p>
       </div>
 
